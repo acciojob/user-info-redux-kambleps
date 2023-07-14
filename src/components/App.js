@@ -2,7 +2,7 @@
 import React from "react";
 import './../styles/App.css';
 import {useSelector,useDispatch} from "react-redux";
-import {updateName,updateEmail} from "./action/actionCreater";
+import {updateName,updateEmail} from "../action/actionCreater";
 
 
 const App = () => {
